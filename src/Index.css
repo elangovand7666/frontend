@@ -1,0 +1,30 @@
+body{
+    background-image: url("C:\Users\D. ELANGOVAN\OneDrive\Desktop\React\myapp\src\assets\down.jpg");
+}
+table{
+    opacity: 90%;
+    align-items: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+thead{
+    background-color: rgb(141, 181, 236);
+    text-align: center;
+    font-size: 20px;
+}
+tbody{
+    background-color: rgb(172, 224, 224);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 2px;
+    border-radius: 2px;
+    border-color: black;
+}
+button{
+    color: rgb(46, 53, 53);
+    background-color: azure;
+    border-radius: 50px;
+}
+

@@ -1,0 +1,119 @@
+/* Form Styling */
+form {
+    opacity: 90%;
+    background-color: #adece3;
+    border-radius: 90px;
+    display: flex; /* Ensures proper alignment */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px; /* Adds spacing between elements */
+    margin: 50px;
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc; /* Subtle border for better visibility */
+    width: 90%; /* Ensure responsiveness */
+    max-width: 400px; /* Limit maximum width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+input::placeholder {
+    padding: 5px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777; /* Subtle color for placeholder */
+}
+
+/* Headings */
+h2 {
+    color: rgb(33, 18, 18);
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 40px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: green;
+    border: none; /* Removes default border */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: green;
+    border: 2px solid green; /* Adds border on hover for better contrast */
+}
+
+/* Special Button Classes */
+.butt1 {
+    background-color: rgb(207, 46, 46);
+    color: #ffffff;
+}
+
+.butt1:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(207, 46, 46);
+    border: 2px solid rgb(207, 46, 46);
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: rgb(20, 16, 16);
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* Div Containers */
+.div1 {
+    opacity: 90%;
+    background: rgb(139, 192, 225);
+    padding: 30px;
+    margin: 0px 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.div2 {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.div3, .div4, .div5 {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.div4 {
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 10px; /* Adds spacing between child elements */
+}
+
+/* Dropdown Options */
+option {
+    font-size: 15px;
+    font-weight: 700;
+}
